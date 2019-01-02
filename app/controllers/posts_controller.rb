@@ -7,7 +7,7 @@ class PostsController < ApplicationController
 
   def show
     @post = set_post
-    binding.pru
+    binding.pry
     render :show
   end
 
