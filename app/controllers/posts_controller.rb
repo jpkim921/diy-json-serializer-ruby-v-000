@@ -30,6 +30,7 @@ class PostsController < ApplicationController
 
   def post_data
     post = Post.find(params[:id])
+    binding.pry
     render plain: post.description
   end
 
