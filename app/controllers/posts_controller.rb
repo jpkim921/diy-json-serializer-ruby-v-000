@@ -6,7 +6,7 @@ class PostsController < ApplicationController
   end
 
   def show
-    @post = Param.
+    @post = set_post
   end
 
   def new
